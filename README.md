@@ -42,7 +42,7 @@ mvn clean package -P dev|test|uat|prod
 cd account
 ./mvnw spring-boot:run
 
-cd auction
+cd license-plates
 ./mvnw spring-boot:run
 ```
 - Jar statement
@@ -50,8 +50,8 @@ cd auction
 cd account
 java -jar target/account-service.jar
 
-cd auction
-java -jar target/auction-service.jar
+cd license-plates
+java -jar target/license-plates-service.jar
 ```
 
 - Docker
@@ -59,14 +59,14 @@ java -jar target/auction-service.jar
 docker build -t cd account-service ./account
 docker run -d account-service:latest account-service
 
-docker build -t cd auction-service ./auction
-docker run -d auction-service:latest auction-service
+docker build -t cd license-plates-service ./license-plates
+docker run -d license-plates-service:latest license-plates-service
 ```
 
 ## Package application
 ```bash
 docker build -t account-service ./account
 
-docker build -t auction-service ./auction
+docker build -t license-plates-service ./license-plates
 ```
 
