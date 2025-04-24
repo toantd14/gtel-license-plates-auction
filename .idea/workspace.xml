@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecb5ad8-8a1e-42d2-a9f2-97dff2eca04c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/auction/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auction/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/src/test/java/com/auction/AuctionApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/src/main/java/auction/gtel/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/src/main/java/auction/gtel/controller/LicensePlatesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction/src/main/java/com/auction/AuctionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction/src/main/java/auction/gtel/AuctionApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,28 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CODE_LEARN/_java-stack/gtel-license-plates-auction",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODE_LEARN/_java-stack/gtel-license-plates-auction/auction/src/main/java/auction/gtel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE_LEARN\_java-stack\gtel-license-plates-auction\auction\src\main\java\auction\gtel" />
       <recent name="D:\CODE_LEARN\_java-stack\gtel-license-plates-auction" />
       <recent name="D:\CODE_LEARN\_java-stack\gtel-license-plates-auction\auction" />
     </key>
@@ -175,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745460666592</updated>
       <workItem from="1745460668088" duration="2548000" />
-      <workItem from="1745463302093" duration="1129000" />
+      <workItem from="1745463302093" duration="2180000" />
     </task>
     <servers />
   </component>
