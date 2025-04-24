@@ -1,4 +1,4 @@
-package auction.gtel.controller;
+package auction.gtel.controllers;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-public class AuthenticationController {
+public class LicensePlatesController {
 
     @GetMapping("/hello")
     public String hello(){
         log.info("Hello World");
-        return "Authentication";
+        return "LicensePlates";
     }
 }

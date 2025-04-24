@@ -20,7 +20,7 @@
         <module>api-gateway</module>
         <module>account</module>
         <module>authentication</module>
-        <module>auction</module>
+        <module>license-plates</module>
     </modules>
 
     <properties>
