@@ -41,21 +41,32 @@ mvn clean package -P dev|test|uat|prod
 ```bash
 cd account
 ./mvnw spring-boot:run
+
+cd auction
+./mvnw spring-boot:run
 ```
 - Jar statement
 ```bash
 cd account
 java -jar target/account-service.jar
+
+cd auction
+java -jar target/auction-service.jar
 ```
 
 - Docker
 ```bash
 docker build -t cd account-service ./account
 docker run -d account-service:latest account-service
+
+docker build -t cd auction-service ./auction
+docker run -d auction-service:latest auction-service
 ```
 
 ## Package application
 ```bash
 docker build -t account-service ./account
+
+docker build -t auction-service ./auction
 ```
 

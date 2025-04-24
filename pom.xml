@@ -20,6 +20,7 @@
         <module>api-gateway</module>
         <module>account</module>
         <module>authentication</module>
+        <module>auction</module>
     </modules>
 
     <properties>
